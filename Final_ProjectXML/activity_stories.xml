@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:onClick="backbtn"
+                android:layout_marginLeft="15dp"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stories"
+            android:textSize="36sp"
+            android:textColor="#303030"
+            android:fontFamily="@font/baloo_regular"
+            android:padding="15dp"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="fill_horizontal"
+            android:rowCount="5"
+            android:columnCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/sti"
+                    android:onClick="ibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thetortoiseandthebird">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stii"
+                    android:onClick="iibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thehareandthetoetoisejpg">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stiii"
+                    android:onClick="iiibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/theboywhocriedwolf">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stiv"
+                    android:onClick="ivbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thebadhabits">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stv"
+                    android:onClick="vbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thefoxandthecrow">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stvi"
+                    android:onClick="vibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thelionandthemouse">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stvii"
+                    android:onClick="viibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thegoldengoosethatlayegg">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stviii"
+                    android:onClick="viiibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thefoxandthegoat">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stix"
+                    android:onClick="ixbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/theuglyduckling">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stx"
+                    android:onClick="xbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thecrowandthepitcher">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stxi"
+                    android:onClick="xibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/theelephantandfriends">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stxii"
+                    android:onClick="xiibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thefoxandthestork">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stxiii"
+                    android:onClick="xiiibtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thefoxwithoutatail">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stxiv"
+                    android:onClick="xivbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/theclevermonkey">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/stxv"
+                    android:onClick="xvbtn"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thelionandtheboar">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

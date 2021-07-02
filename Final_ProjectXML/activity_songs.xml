@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".songs">
+
+    <RelativeLayout
+        android:id="@+id/pinakataas"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:onClick="backbtn"
+            android:layout_marginLeft="15dp"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/taas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs"
+        android:textSize="36sp"
+        android:textColor="#303030"
+        android:fontFamily="@font/baloo_regular"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pinakataas">
+
+    </TextView>
+
+
+    <ListView
+        android:id="@+id/songList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/taas"
+        android:layout_marginTop="16dp">
+
+
+    </ListView>
+
+
+</RelativeLayout>
